@@ -1,1 +1,98 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    height: 293px;
+    min-width: 1100px;
+}
+
+.header__logo-image{
+    width: 135px;
+    display: block;
+}
+.address{
+    font-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    align-self: center;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 98px;
+    margin-right: 50px;
+    text-underline-position: under;
+    font-style: normal;
+}
+
+.address-contacts{
+    padding-bottom: px;
+}
+.address-address-text{
+    padding-top:7px;
+    font-style: normal;
+}
+.header__links-list{
+    display: flex;
+    gap: 15px;
+    margin-top: -5px;
+    margin-left: 50px;
+    list-style: circle;
+    text-underline-position: under;
+    
+}
+
+.header__links-list-item_no-bullit{
+    list-style: none;
+}
+.header__links-list-item{
+    text-decoration: underline;
+    
+}
+
+.link-text{
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.cover{
+    height: 757px;
+    background-image: url(../images/cover.jpg);
+}
+.cover__text-block{
+    height: 385px;
+    padding-top: 165px;
+    padding-left: 50px;
+    width: 1080px;
+    
+}
+
+.cover__text-block-word1{
+    text-align:left;
+    font-weight:700;
+    font-style: bold;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    padding-bottom: 15px;
+}
+
+.cover__text-block-word2{
+    text-align:center;
+    font-weight:700;
+    font-style: bold;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    padding-bottom: 18px;
+}
+
+.cover__text-block-word3{
+    text-align:right;
+    font-weight:700;
+    font-style: bold;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}

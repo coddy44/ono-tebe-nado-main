@@ -1,124 +1,304 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <nav >
-        <ul class = "header__links-list">
-          <li class="header__links-list-item_no-bullit">
-            <a class="link-text">главная</a>
-          </li>
-          <li class="header__links-list-item">
-            <a class="link-text">посмотреть лоты</a>
-          </li>
-          <li class="header__links-list-item"> 
-            <a class="link-text">об аукционе</a>
-          </li> 
-        </ul>
-      </nav>
-      <img
-          class="header__logo-image"
-          src="images/logo-black.svg"
-          alt="Логотип проекта"
-      />
-      <address class="address">
-          <a class="address-contacts" href="tel:+70000000">+9 999 555 5555</a>
-          <a class="address-contacts" href="mailto:mail@example.com">info@sobaka.ge</a>
-          <p class="address-address-text">наб. Принсенграхт 263- 265, Амстердам</p>
-      </address>
-    </header>
-    <main>
-      <div class="cover">
-        <div class="overlay"></div>
-          <article class="cover__text-block">
-            <p class="cover__text-block-word1">Оно</p>
-            <p class="cover__text-block-word2">Тебе</p>
-            <p class="cover__text-block-word3">Надо</p>
-          </article>
-          <div class="description-block">
-            <p class="description-text">Аукцион вещей, в которые никто не верил</p>
-            <button class="description-buttom"> сделать ставку </button>
-          </div>
-      </div>
-      <div class="lots">
-        <h3 class="lots-title"> Лоты</h3>
-        <div class="lots-block">
-          <div class="lots-section">
-            <div class="overlay"></div>
-            <h4 class="lots-section-title">Фильм режиссёра, который бросил киношколу</h4>
-            <p class="lots-section-paragraph lots-section-paragraph1">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
-          </div>
-          <div class="lots-section">
-            <div class="overlay"></div>
-            <h4 class="lots-section-title">Книга, где описан один скучный день из жизни рекламного агента</h4>
-            <p class="lots-section-paragraph lots-section-paragraph2">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
-          </div>
-          <div class="lots-section">
-            <div class="overlay"></div>
-            <h4 class="lots-section-title">Картина, которую повторит даже 5-летний сын маминой подруги</h4>
-            <p class="lots-section-paragraph lots-section-paragraph3">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
-          </div>
-        </div>
-        <p class="lots-link">посмотреть больше</p>
-      </div>
-      <div class="about">
-        <div class="logo-block">
-          <img
-            class="about-image"
-            src="images/logo-white.svg"
-            alt="Логотип проекта"
-          />
-        </div>
-        <div class="about__main-block">
-          <h1 class="about-title">Об аукционе</h1>
-          <p class="about-text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-          <p class="about-text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
-на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
-        </div>
-      </div>
-    </main>
-    <footer class="footer">
-      <address class="address address-footer">
-        <a class="address-contacts" href="tel:+70000000">+9 999 555 5555</a>
-        <a class="address-contacts" href="mailto:mail@example.com">info@sobaka.ge</a>
-        <p class="address-address-text">наб. Принсенграхт 263- 265, Амстердам</p>
-      </address>
-      <ul class = "footer__links-list">
-        <li class="footer__links-list-item_no-bullit">
-          <a class="link-text">главная</a5>
-        </li>
-        <li class="footer__links-list-item">
-          <a class="link-text">посмотреть лоты</a5>
-        </li>
-        <li class="footer__links-list-item"> 
-          <a class="link-text">об аукционе</a5>
-        </li> 
-      </ul>
-      <div class="footer__image-block">
-        <img
-          class="footer-image"
-          src="images/yt.svg"
-          alt="Логотип youtube"
-        />
-        <img
-          class="footer-image"
-          src="images/vk.svg"
-          alt="Логотип вконтакте"
-        />
-        <img
-          class="footer-image"
-          src="images/pinterest.svg"
-          alt="Логотип pinterest"
-        />
-      </div>
-    </footer>
-  </body>
-</html>
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    height: 293px;
+    min-width: 1100px;
+}
+
+.header__logo-image {
+    width: 135px;
+    display: block;
+}
+.address {
+    font-weight: 400;
+    font-size: 18px;
+    align-self: center;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 98px;
+    margin-right: 50px;
+    text-underline-position: under;
+    font-style: normal;
+}
+
+.address-contacts {
+    padding-bottom: 2px;
+}
+.address-address-text {
+    padding-top:4px;
+    font-style: normal;
+}
+.header__links-list {
+    display: flex;
+    gap: 32px;
+    margin-top: -5px;
+    margin-left: 50px;
+    list-style: circle;
+    text-underline-position: under;
+    
+}
+
+.header__links-list-item_no-bullit {
+    list-style: none;
+}
+.header__links-list-item {
+    text-decoration: underline;
+    
+}
+
+.link-text {
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  z-index: 0;
+  background-color: #000000;
+}
+
+.cover {
+    position: relative;
+    z-index: 1;
+    height: 757px;
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+}
+.cover__text-block {
+    position: relative;
+    z-index: 1;
+    height: 385px;
+    padding-top: 165px;
+    padding-left: 50px;
+    width: 1080px;
+    
+}
+
+.cover__text-block-word1 {
+    text-align:left;
+    font-weight:700;
+    font-style: bold;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.cover__text-block-word2 {
+    text-align:center;
+    font-weight:700;
+    font-style: bold;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    padding-bottom: 18px;
+    color: white;
+}
+
+.cover__text-block-word3 {
+    text-align:right;
+    font-weight:700;
+    font-style: bold;
+    font-size: 100px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    color: white;
+}
+
+.description-block {
+    display: flex;
+    margin-left:50px;
+    margin-top: 285px;
+}
+.description-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    word-spacing: 19px;
+    letter-spacing: 0%;
+    padding-right: 105px;
+    color: white;
+    line-height:28px;
+}
+
+.description-buttom {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 30px;
+    margin-top:-12px;
+    border: 1px solid white;
+
+}
+
+.lots {
+    padding-top: 180px;
+    margin-left: 25px;
+}
+
+.lots-title {
+    font-size: 40px;
+    padding-left: 38px;
+    padding-bottom: 27px;
+    text-transform: uppercase;
+}
+.lots-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lots-section {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 596px;
+    width: 334px;
+}
+
+
+
+.lots-section:nth-of-type(1) {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+}
+.lots-section:nth-of-type(2) {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+}
+.lots-section:nth-of-type(3) {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+}
+.lots-section-title {
+    position: relative;
+    z-index: 1;
+    width: 270px;
+    margin: 48px 0px 0px 40px;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 1px;
+    text-underline-position:under;
+    font-weight: 700;
+    font-style: bold;
+    color: white;
+}
+
+.lots-section-paragraph {
+    position: relative;
+    z-index: 1;
+    width: 265px;
+    margin: 0px 0px 0px 40px;
+    font-style: regular;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    color: white;
+}
+
+.lots-section-paragraph1 {
+    padding-top: 280px;
+}
+
+.lots-section-paragraph2 {
+    padding-top: 35px;
+}
+
+.lots-section-paragraph3 {
+    padding-top: 133px;
+}
+
+.lots-link {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-decoration-thickness: 1px;
+    text-underline-position:under;
+    padding-top: 30px;
+    padding-left:40px
+}
+
+.about {
+    width: 1052px;
+    height: 595px;
+}
+
+.logo-block {
+    margin-left: 72px;
+    margin-top: 154px;
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 1000px
+}
+.about-image {
+    width: 147px;
+    display: block;
+    margin: auto;
+    padding-top: 64px;
+}
+
+.about__main-block {
+    margin-left: 385px;
+    margin-top: -140px;
+    width: 693px;
+    height: 449px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight:700;
+    text-transform:uppercase;
+    padding-bottom:100px;
+}
+.about-text {
+    width: 685px;
+    font-size:20px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+
+.footer {
+    padding-top:147px;
+    padding-left:50px;
+    display: flex;
+}
+
+.address-footer {
+    width: 265px;
+}
+.footer__links-list {
+    display:flex;
+    flex-direction:column;
+    list-style: none;
+    align-items:center;
+    padding-right: 190px;
+    padding-left: 110px;
+    
+}
+.footer__links-list-item {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position:under;
+}
+
+.footer__image-block {
+    display:flex;
+    gap:47px;
+}
+.footer-image {
+    width: 48px;
+}

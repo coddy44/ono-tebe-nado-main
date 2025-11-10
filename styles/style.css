@@ -76,6 +76,7 @@
     text-transform: uppercase;
     letter-spacing: 30px;
     padding-bottom: 15px;
+    color: white;
 }
 
 .cover__text-block-word2{
@@ -86,6 +87,7 @@
     text-transform: uppercase;
     letter-spacing: 30px;
     padding-bottom: 18px;
+    color: white;
 }
 
 .cover__text-block-word3{
@@ -95,4 +97,33 @@
     font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 30px;
+    color: white;
+}
+
+.description-block{
+    display: flex;
+    margin-left:50px;
+    margin-top: 285px;
+}
+.description-text{
+    font-size: 22px;
+    text-transform: uppercase;
+    word-spacing: 19px;
+    letter-spacing: 0%;
+    padding-right: 105px;
+    color: white;
+    line-height:28px;
+}
+
+.description-buttom{
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 30px;
+    margin-top:-12px;
+    border: 1px solid white;
+
 }

@@ -285,7 +285,7 @@
     flex-direction:column;
     list-style: none;
     align-items:center;
-    padding-right: 190px;
+    padding-right: 187px;
     padding-left: 110px;
     
 }
@@ -296,8 +296,9 @@
 }
 
 .footer__image-block {
+    padding-bottom:50px;
     display:flex;
-    gap:47px;
+    gap:48px;
 }
 .footer-image {
     width: 48px;
